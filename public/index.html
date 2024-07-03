@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Abderrahman's portfolio" />
+  <link rel="apple-touch-icon" href="../src/assets/img/logo.jpeg" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <title>Abderrahman el qadiri</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyCQVHIs20lNA3JBlSrUpT1RTKCY72ie-dM",
+      authDomain: "abdos-portfolio.firebaseapp.com",
+      projectId: "abdos-portfolio",
+      storageBucket: "abdos-portfolio.appspot.com",
+      messagingSenderId: "845376086178",
+      appId: "1:845376086178:web:1d0360f0b632eab01c37fb"
+    };
+
+    const app = initializeApp(firebaseConfig);
+  </script>
+  <div id="root"></div>
+</body>
+
+</html>
